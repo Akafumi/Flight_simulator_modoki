@@ -1,0 +1,13 @@
+void setup() {
+  size(640,400);
+}
+
+float x = 120;
+
+void draw() {
+  background(255);
+  text("x=",+x,width/2,10
+  );
+  // text("enemy_x="+enemy_x,width-80,10);
+  x=x+10;
+}
